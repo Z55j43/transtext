@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "测试翻译器",
+    "version":"1.0",
+    "description":"翻译游戏中的英语",
+    "permissions":["contextMenus","activeTab","scripting"],
+    "host_permissions":["<all_urls>"],
+    "background":{
+        "service_worker":"background.js"
+    },
+    "icons":{
+        "16":"favicon-16x16.png",
+        "192":"android-chrome-192x192.png"
+    }
+}

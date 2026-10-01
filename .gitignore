@@ -1,0 +1,8 @@
+# 本地私密配置：里面是 API Key，绝对不能提交
+config.js
+
+# 系统 / 编辑器产生的杂物
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
